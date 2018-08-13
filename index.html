@@ -8,10 +8,35 @@
     <link href="css/styles.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <input id="input" type-"text">
-    <input type=button id="btn" onclick="myFunction(event)" value="Add Number"/>
+  <form id="form">
+    <div class="questions">
+      <label for="question1">Question</label>
+      <input id="input1" type-"text">
+    </div>
+    <div class="questions">
+      <label for="question2">Question</label>
+      <input id="input2" type-"text">
+    </div>
+    <div class="questions">
+      <label for="question3">Question</label>
+      <input id="input3" type-"text">
+    </div>
+    <div class="questions">
+      <label for="question4">Question</label>
+      <input id="input4" type-"text">
+    </div>
+      <input type=button id="btn" onclick="myFunction(event)" value="Add Number"/>
+  </form>
+
+
 
     <p id="box"></p>
+
+    <ul id="faves">
+      <li id="fave1"></li>
+      <li id="fave2"></li>
+      <li id="fave3"></li>
+    </ul>
 
   </body>
 </html>
